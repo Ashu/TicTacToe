@@ -59,7 +59,6 @@ class TTTViewController: UIViewController {
        } else {
            playerOne.name = "Player 1"
        }
-//        playerOne.name = self.playerOneName
         playerOne.isTurn = true
         playerOne.playerId = 1
     }
@@ -70,7 +69,6 @@ class TTTViewController: UIViewController {
         alert.addAction(UIAlertAction(title: "OK", style: .default, handler: { (_) in
             print("reload collection View")
             self.dismiss(animated: true, completion: nil)
-//            self.tttCollectionView.reloadData()
             self.navigationController?.popViewController(animated: true)
             
         }))
