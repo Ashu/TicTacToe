@@ -70,7 +70,6 @@ class TTTViewController: UIViewController {
         alert.addAction(UIAlertAction(title: "OK", style: .default, handler: { (_) in
             print("reload collection View")
             self.dismiss(animated: true, completion: nil)
-//            self.tttCollectionView.reloadData()
             self.navigationController?.popViewController(animated: true)
             
         }))
