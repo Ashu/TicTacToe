@@ -153,8 +153,6 @@ extension TTTViewController: UICollectionViewDelegate {
                 }
             }
         }
-        // Check Results
-//        self.convertToMatrix()
         if  cpuPlayer.positions.count + playerOne.positions.count == 9{
                    self.showAlert(title: "Its a draw. Game Over!!")
                }
